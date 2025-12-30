@@ -16,3 +16,6 @@ Interactive dashboard for charts with:
 - git commit -m "Add README"
 - git push
 
+## Screenshot
+
+![Chart App Screenshot](image.png) 
