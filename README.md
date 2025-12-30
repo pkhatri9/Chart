@@ -12,7 +12,7 @@ Interactive dashboard for charts with:
 2. Add data points and visualize charts
 
 ### Then Commit and Push
-git add README.md
-git commit -m "Add README"
-git push
+- git add README.md
+- git commit -m "Add README"
+- git push
 
