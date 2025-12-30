@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ultimate Chart Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ultimate Interactive Chart Dashboard</h1>
+            <button id="themeToggle">Toggle Dark/Light Mode</button>
+        </header>
+
+        <section class="controls">
+            <input type="text" id="label" placeholder="Category">
+            <input type="number" id="value" placeholder="Value">
+            <input type="color" id="color" value="#36A2EB">
+            <button id="addBtn">Add Data</button>
+            <button id="resetBtn">Reset Chart</button>
+        </section>
+
+        <section class="chart-type">
+            <button data-type="bar">Bar</button>
+            <button data-type="line">Line</button>
+            <button data-type="pie">Pie</button>
+        </section>
+
+        <canvas id="myChart"></canvas>
+
+        <section class="data-table">
+            <h2>Data Table</h2>
+            <table id="dataTable">
+                <thead>
+                    <tr><th>Category</th><th>Value</th><th>Color</th><th>Actions</th></tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+
+        <section class="export">
+            <button id="exportPNG">Export Chart as PNG</button>
+            <button id="exportCSV">Export Data as CSV</button>
+        </section>
+    </div>
+
+    <script src="storage.js"></script>
+    <script src="utils.js"></script>
+    <script src="charts.js"></script>
+    <script src="table.js"></script>
+    <script src="export.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
