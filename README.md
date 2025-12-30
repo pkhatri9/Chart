@@ -11,7 +11,7 @@ Interactive dashboard for charts with:
 1. Open `index.html` in your browser
 2. Add data points and visualize charts
 
-# Then Commit and Push
+### Then Commit and Push
 git add README.md
 git commit -m "Add README"
 git push
